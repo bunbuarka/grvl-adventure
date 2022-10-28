@@ -37,6 +37,7 @@ body {
   height: 47px;
   background-image: url("https://i.ibb.co/bvPqTTS/grvl.jpg");
   background-size: cover;
+  box-sizing: border-box;
 }
 
 /* Flexbox */
@@ -114,15 +115,32 @@ body {
   margin-bottom: 75px;
 }
 
-* {
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
+#footer {
+  font-size: smaller;
 }
 
 /*
 PURE RESPONSIVE CSS3 SLIDESHOW GALLERY by Roko C. buljan
 http://stackoverflow.com/a/34696029/383904
 */
+/* Slide Image */
+#slide1 {
+  background-image: url(https://i.ibb.co/f0R5FtD/welcome.jpg);
+}
+#slide2 {
+  background-image: url(https://i.ibb.co/4scgBrG/oshima.jpg);
+}
+
+#slide3 {
+  background-image: url(https://i.ibb.co/nRqy8sn/camping1.jpg);
+}
+
+#slide4 {
+  background-image: url(https://i.ibb.co/d5C20WZ/subaru.jpg);
+}
+#welcome-banner {
+  background-color: rgb(1, 1, 1, 0.8);
+}
 
 .CSSgal {
   /* position: relative; */
@@ -280,11 +298,6 @@ http://stackoverflow.com/a/34696029/383904
 }
 
 /* More slides? Add here more rules */
-
-/* YOU'RE THE DESIGNER! 
-   ____________________
-   All above was mainly to get it working :)
-   CSSgal CUSTOM STYLES / OVERRIDES HERE: */
 
 .CSSgal {
   color: #fff;
